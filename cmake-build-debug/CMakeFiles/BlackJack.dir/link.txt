@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/BlackJack.dir/main.cpp.o  -o BlackJack 
