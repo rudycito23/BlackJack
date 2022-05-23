@@ -82,6 +82,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/Cards.cpp">
+			<Option target="BlackJack"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/Cards.h">
+			<Option target="BlackJack"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/Dealer.cpp">
+			<Option target="BlackJack"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/Dealer.h">
+			<Option target="BlackJack"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/Game.cpp">
+			<Option target="BlackJack"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/Game.h">
+			<Option target="BlackJack"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/Players.cpp">
+			<Option target="BlackJack"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/Players.h">
+			<Option target="BlackJack"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/rrluc/CLionProjects/BlackJack/main.cpp">
 			<Option target="BlackJack"/>
 		</Unit>

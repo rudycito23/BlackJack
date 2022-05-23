@@ -70,17 +70,77 @@ CMakeFiles/BlackJack.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlackJack.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rrluc/CLionProjects/BlackJack/main.cpp -o CMakeFiles/BlackJack.dir/main.cpp.s
 
+CMakeFiles/BlackJack.dir/Players.cpp.o: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/Players.cpp.o: ../Players.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rrluc/CLionProjects/BlackJack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlackJack.dir/Players.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlackJack.dir/Players.cpp.o -c /mnt/c/Users/rrluc/CLionProjects/BlackJack/Players.cpp
+
+CMakeFiles/BlackJack.dir/Players.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlackJack.dir/Players.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/rrluc/CLionProjects/BlackJack/Players.cpp > CMakeFiles/BlackJack.dir/Players.cpp.i
+
+CMakeFiles/BlackJack.dir/Players.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlackJack.dir/Players.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rrluc/CLionProjects/BlackJack/Players.cpp -o CMakeFiles/BlackJack.dir/Players.cpp.s
+
+CMakeFiles/BlackJack.dir/Cards.cpp.o: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/Cards.cpp.o: ../Cards.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rrluc/CLionProjects/BlackJack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BlackJack.dir/Cards.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlackJack.dir/Cards.cpp.o -c /mnt/c/Users/rrluc/CLionProjects/BlackJack/Cards.cpp
+
+CMakeFiles/BlackJack.dir/Cards.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlackJack.dir/Cards.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/rrluc/CLionProjects/BlackJack/Cards.cpp > CMakeFiles/BlackJack.dir/Cards.cpp.i
+
+CMakeFiles/BlackJack.dir/Cards.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlackJack.dir/Cards.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rrluc/CLionProjects/BlackJack/Cards.cpp -o CMakeFiles/BlackJack.dir/Cards.cpp.s
+
+CMakeFiles/BlackJack.dir/Dealer.cpp.o: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/Dealer.cpp.o: ../Dealer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rrluc/CLionProjects/BlackJack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BlackJack.dir/Dealer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlackJack.dir/Dealer.cpp.o -c /mnt/c/Users/rrluc/CLionProjects/BlackJack/Dealer.cpp
+
+CMakeFiles/BlackJack.dir/Dealer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlackJack.dir/Dealer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/rrluc/CLionProjects/BlackJack/Dealer.cpp > CMakeFiles/BlackJack.dir/Dealer.cpp.i
+
+CMakeFiles/BlackJack.dir/Dealer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlackJack.dir/Dealer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rrluc/CLionProjects/BlackJack/Dealer.cpp -o CMakeFiles/BlackJack.dir/Dealer.cpp.s
+
+CMakeFiles/BlackJack.dir/Game.cpp.o: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/Game.cpp.o: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rrluc/CLionProjects/BlackJack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BlackJack.dir/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BlackJack.dir/Game.cpp.o -c /mnt/c/Users/rrluc/CLionProjects/BlackJack/Game.cpp
+
+CMakeFiles/BlackJack.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlackJack.dir/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/rrluc/CLionProjects/BlackJack/Game.cpp > CMakeFiles/BlackJack.dir/Game.cpp.i
+
+CMakeFiles/BlackJack.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlackJack.dir/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rrluc/CLionProjects/BlackJack/Game.cpp -o CMakeFiles/BlackJack.dir/Game.cpp.s
+
 # Object files for target BlackJack
 BlackJack_OBJECTS = \
-"CMakeFiles/BlackJack.dir/main.cpp.o"
+"CMakeFiles/BlackJack.dir/main.cpp.o" \
+"CMakeFiles/BlackJack.dir/Players.cpp.o" \
+"CMakeFiles/BlackJack.dir/Cards.cpp.o" \
+"CMakeFiles/BlackJack.dir/Dealer.cpp.o" \
+"CMakeFiles/BlackJack.dir/Game.cpp.o"
 
 # External object files for target BlackJack
 BlackJack_EXTERNAL_OBJECTS =
 
 BlackJack: CMakeFiles/BlackJack.dir/main.cpp.o
+BlackJack: CMakeFiles/BlackJack.dir/Players.cpp.o
+BlackJack: CMakeFiles/BlackJack.dir/Cards.cpp.o
+BlackJack: CMakeFiles/BlackJack.dir/Dealer.cpp.o
+BlackJack: CMakeFiles/BlackJack.dir/Game.cpp.o
 BlackJack: CMakeFiles/BlackJack.dir/build.make
 BlackJack: CMakeFiles/BlackJack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/rrluc/CLionProjects/BlackJack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BlackJack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/rrluc/CLionProjects/BlackJack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable BlackJack"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BlackJack.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

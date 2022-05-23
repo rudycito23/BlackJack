@@ -123,6 +123,114 @@ BlackJack/fast:
 	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/build
 .PHONY : BlackJack/fast
 
+Cards.o: Cards.cpp.o
+
+.PHONY : Cards.o
+
+# target to build an object file
+Cards.cpp.o:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Cards.cpp.o
+.PHONY : Cards.cpp.o
+
+Cards.i: Cards.cpp.i
+
+.PHONY : Cards.i
+
+# target to preprocess a source file
+Cards.cpp.i:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Cards.cpp.i
+.PHONY : Cards.cpp.i
+
+Cards.s: Cards.cpp.s
+
+.PHONY : Cards.s
+
+# target to generate assembly for a file
+Cards.cpp.s:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Cards.cpp.s
+.PHONY : Cards.cpp.s
+
+Dealer.o: Dealer.cpp.o
+
+.PHONY : Dealer.o
+
+# target to build an object file
+Dealer.cpp.o:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Dealer.cpp.o
+.PHONY : Dealer.cpp.o
+
+Dealer.i: Dealer.cpp.i
+
+.PHONY : Dealer.i
+
+# target to preprocess a source file
+Dealer.cpp.i:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Dealer.cpp.i
+.PHONY : Dealer.cpp.i
+
+Dealer.s: Dealer.cpp.s
+
+.PHONY : Dealer.s
+
+# target to generate assembly for a file
+Dealer.cpp.s:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Dealer.cpp.s
+.PHONY : Dealer.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Players.o: Players.cpp.o
+
+.PHONY : Players.o
+
+# target to build an object file
+Players.cpp.o:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Players.cpp.o
+.PHONY : Players.cpp.o
+
+Players.i: Players.cpp.i
+
+.PHONY : Players.i
+
+# target to preprocess a source file
+Players.cpp.i:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Players.cpp.i
+.PHONY : Players.cpp.i
+
+Players.s: Players.cpp.s
+
+.PHONY : Players.s
+
+# target to generate assembly for a file
+Players.cpp.s:
+	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/Players.cpp.s
+.PHONY : Players.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BlackJack"
+	@echo "... Cards.o"
+	@echo "... Cards.i"
+	@echo "... Cards.s"
+	@echo "... Dealer.o"
+	@echo "... Dealer.i"
+	@echo "... Dealer.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Players.o"
+	@echo "... Players.i"
+	@echo "... Players.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
