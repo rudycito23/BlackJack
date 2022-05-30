@@ -3,18 +3,12 @@
 
 int main() {
     Players game;
-    int numberOfPlayers;
+    string playerNames;
 
     cout << "Welcome to Black Jack!" << endl << endl;
     cout << "Enter number of player(s): " << endl;
-    cin >> numberOfPlayers;
-    game.setNumPlayers(numberOfPlayers);
-
-    cout << "Enter player name(s): " << endl;
-    string playerName;
-    cin >> playerName;
-    game.setName(playerName);
-    game.getName();
+    game.inputPlayerNames();
+    game.printPlayerNames();
 
     return 0;
 }

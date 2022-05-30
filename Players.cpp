@@ -25,6 +25,26 @@ int Players::getPlayerNames() const {
 }
 
 void Players::inputPlayerNames() {
+    Players game;
+    int numOfPlayers;
+    string playerNames;
 
+    cin >> numOfPlayers;
+    while ((numOfPlayers > 0) || (numOfPlayers < 9)) {
+        if ((numOfPlayers <= 0) || (numOfPlayers >= 9)) {
+            cout << "Invalid number of players. A game of black jack is between 1-8 players; try again." << endl;
+        }
+        else {
+            getline(cin, playerNames);
+            game.setNumPlayers(numOfPlayers);
+            game.setName(playerNames);
+            listOfPlayers.push_back(playerNames);
+        }
+    }
 }
 
+void Players::printPlayerNames() {
+    for (int i = 0; i < listOfPlayers.size(); ++i) {
+        cout << listOfPlayers.at(i) << " ";
+    }
+}

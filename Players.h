@@ -27,6 +27,7 @@ public:
     int getNumPlayers() const;      // get the number of players
     int getPlayerNames() const;     // get the name of the players
     void inputPlayerNames();        // input player names
+    void printPlayerNames();        // print player names
 
 
 
