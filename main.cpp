@@ -11,7 +11,9 @@ int main() {
     game.setNumPlayers(numberOfPlayers);
 
     cout << "Enter player name(s): " << endl;
-    game.inputNames();
+    string playerName;
+    cin >> playerName;
+    game.setName(playerName);
     game.getName();
 
     return 0;

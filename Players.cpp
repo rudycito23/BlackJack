@@ -15,25 +15,16 @@ void Players::setNumPlayers(int numberOfPlayers) {
 void Players::setName(string playerName) {
     name = playerName;
 }
-// store the player names in a vector
-void Players::inputNames() {
-    Players fullGame;
-    string playerName;
-
-    while (numOfPlayers <= 8) {
-        getline(cin, playerName);
-        setName(name);
-        listOfPlayers.push_back(name);
-    }
+// get the number of players
+int Players::getNumPlayers() const {
+    return numOfPlayers;
 }
 
-vector<string> Players::getName() {
-    for (int i = 0; i < listOfPlayers.size(); ++i) {
-        cout << listOfPlayers.at(i) << " ";
-    }
-    return listOfPlayers;
+int Players::getPlayerNames() const {
+    return 0;
 }
 
-//void printAll() {
-//
-//}
+void Players::inputPlayerNames() {
+
+}
+

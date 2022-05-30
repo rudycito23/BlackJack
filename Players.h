@@ -16,17 +16,19 @@ using std::endl;
 
 class Players {
 private:
-    string name{" "};
+    string name{"No Name"};
     int numOfPlayers{0};
     vector<string> listOfPlayers;
 
 public:
     Players();
-    void setNumPlayers(int);
-    void setName(string);
-    void inputNames();
-    vector<string> getName();
-    //void printAll();
+    void setNumPlayers(int);        // set the number of players
+    void setName(string);           // set the name of the players
+    int getNumPlayers() const;      // get the number of players
+    int getPlayerNames() const;     // get the name of the players
+    void inputPlayerNames();        // input player names
+
+
 
 };
 
