@@ -9,37 +9,34 @@ Players::Players() {
 }
 // set the number of players
 void Players::setNumPlayers(int numberOfPlayers) {
+    while ((numberOfPlayers <=0) || (numOfPlayers >=9)) {
+        string tempNumOfPlayers;
+        cout << "Invalid number of players. A game of black jack is between 1-8 players; try again." << endl;
+        getline(cin, tempNumOfPlayers);
+        numOfPlayers = stoi(tempNumOfPlayers);
+    }
     numOfPlayers = numberOfPlayers;
-}
-// set player names
-void Players::setName(string playerName) {
-    name = playerName;
+
 }
 // get the number of players
 int Players::getNumPlayers() const {
     return numOfPlayers;
 }
+void getPlayerNameAt () {
 
-int Players::getPlayerNames() const {
-    return 0;
 }
-
-void Players::inputPlayerNames() {
-    Players game;
+void Players::storePlayerNames() {
     int numOfPlayers;
     string playerNames;
 
     cin >> numOfPlayers;
-    while ((numOfPlayers > 0) || (numOfPlayers < 9)) {
-        if ((numOfPlayers <= 0) || (numOfPlayers >= 9)) {
-            cout << "Invalid number of players. A game of black jack is between 1-8 players; try again." << endl;
-        }
-        else {
-            getline(cin, playerNames);
-            game.setNumPlayers(numOfPlayers);
-            game.setName(playerNames);
-            listOfPlayers.push_back(playerNames);
-        }
+    this->setNumPlayers(numOfPlayers);
+    listOfPlayers.resize(numOfPlayers);
+    for (int i = 0; i < getNumPlayers(); ++i) {
+        cout << "Enter player(s) name: ";
+        cin >> playerNames;
+        this->setName(playerNames);
+        listOfPlayers.at(i)= playerNames;
     }
 }
 

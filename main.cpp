@@ -7,7 +7,7 @@ int main() {
 
     cout << "Welcome to Black Jack!" << endl << endl;
     cout << "Enter number of player(s): " << endl;
-    game.inputPlayerNames();
+    game.storePlayerNames();
     game.printPlayerNames();
 
     return 0;

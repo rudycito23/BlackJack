@@ -7,26 +7,25 @@
 
 #include <iostream>
 #include <vector>
+#include <utility>
 
 using std::cout;
 using std::cin;
 using std::string;
 using std::vector;
+using std::pair;
 using std::endl;
 
 class Players {
 private:
-    string name{"No Name"};
     int numOfPlayers{0};
     vector<string> listOfPlayers;
 
 public:
     Players();
     void setNumPlayers(int);        // set the number of players
-    void setName(string);           // set the name of the players
     int getNumPlayers() const;      // get the number of players
-    int getPlayerNames() const;     // get the name of the players
-    void inputPlayerNames();        // input player names
+    void storePlayerNames();        // input player names
     void printPlayerNames();        // print player names
 
 
